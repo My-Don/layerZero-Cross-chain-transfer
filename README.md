@@ -8,39 +8,6 @@
  <a href="https://docs.layerzero.network/" style="color: #a77dff">LayerZero Docs</a>
 </p>
 
-<h1 align="center">OFT Adapter Example</h1>
-
-<p align="center">Template project for converting an existing token into a cross-chain token (<a href="https://docs.layerzero.network/v2/concepts/applications/oft-standard">OFT</a>) using the LayerZero protocol. This example's config involves EVM chains, but the same OFT can be extended to involve other VM chains such as Solana, Aptos and Hyperliquid.</p>
-
-## Table of Contents
-
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [Scaffold this example](#scaffold-this-example)
-- [Helper Tasks](#helper-tasks)
-- [Setup](#setup)
-- [Build](#build)
-  - [Compiling your contracts](#compiling-your-contracts)
-- [Deploy](#deploy)
-- [Enable Messaging](#enable-messaging)
-- [Sending OFTs](#sending-ofts)
-- [Next Steps](#next-steps)
-- [Production Deployment Checklist](#production-deployment-checklist)
-  - [Profiling `lzReceive` and `lzCompose` Gas Usage](#profiling-lzreceive-and-lzcompose-gas-usage)
-  - [Available Commands](#available-commands)
-    - [`lzReceive`](#lzreceive)
-    - [`lzCompose`](#lzcompose)
-  - [Usage Examples](#usage-examples)
-  - [Notes](#notes)
-- [Appendix](#appendix)
-  - [Running Tests](#running-tests)
-  - [Adding other chains](#adding-other-chains)
-  - [Using Multisigs](#using-multisigs)
-  - [LayerZero Hardhat Helper Tasks](#layerzero-hardhat-helper-tasks)
-  - [Manual Configuration](#manual-configuration)
-  - [Contract Verification](#contract-verification)
-  - [Troubleshooting](#troubleshooting)
 
 ## Prerequisite Knowledge
 
