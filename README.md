@@ -137,6 +137,8 @@ const arbitrumContract: OmniPointHardhat = {
 }
 npx hardhat lz:oapp:wire --oapp-config layerzero.config.ts
 终端打印数据如下
+
+
    │       ▓▓▓ LayerZero DevTools ▓▓▓        │
     │  ═══════════════════════════════════    │
     │          /*\                            │
