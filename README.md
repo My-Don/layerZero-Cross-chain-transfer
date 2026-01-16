@@ -60,7 +60,10 @@
 - `forge` (optional) - `>=0.2.0` for testing, and if not using Hardhat for compilation
 
 在目录下，git bash执行下列操作
+
 ```sh
+pnpm install
+pnpm compile
 npx hardhat lz:deploy
 选2个网络,再输入USDT，回车即可,终端打印如下
 info:    Compiling your hardhat project
@@ -99,9 +102,8 @@ cd ..
                 tokenAddress: '0x35430d5DE783051f6aa2c2AD27F4D1e13aaABa2D', // Set the token address for the OFT adapter
             },
         }
-保存文件
-pnpm install
-pnpm compile
+保存当前文件
+
 npx hardhat lz:deploy --network arbitrum-sepolia
 选择arb-sepolia,base-sepolia,再输入MyUSDTMintBurnOFTAdapter,回车即可
 终端打印如下:
