@@ -121,8 +121,9 @@ Deployed contract: MyUSDTMintBurnOFTAdapter, network: arbitrum-sepolia, address:
 Deployed contract: MyUSDTMintBurnOFTAdapter, network: base-sepolia, address: 0xF70e01f57A76674728b9986f688A3327c943A88e
 info:    ✓ Your contracts are now deployed
 
-
-
+下一步
+arbitrum-sepolia网络,通过usdt合约调用transferOwnership，参数是MyUSDTMintBurnOFTAdapter的合约地址即0x044Ed509FfD11ff8B5eA85a1D2d8ea5C0652CCc6
+base-sepolia网络,通过usdt合约调用transferOwnership，参数是MyUSDTMintBurnOFTAdapter合约地址0xF70e01f57A76674728b9986f688A3327c943A88e
 
 下一步骤,验证 wiring 是否成功
 修改layerzero.config.ts
