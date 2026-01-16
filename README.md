@@ -61,7 +61,6 @@
 
 在目录下，git bash执行下列操作
 ```sh
-用 LayerZero CLI 工具部署合约
 npx hardhat lz:deploy
 选2个网络,再输入USDT，回车即可,终端打印如下
 info:    Compiling your hardhat project
