@@ -59,7 +59,8 @@
 - `pnpm` (recommended) - or another package manager of your choice (npm, yarn)
 - `forge` (optional) - `>=0.2.0` for testing, and if not using Hardhat for compilation
 
-在目录下，git bash执行如下命令
+在目录下，git bash执行下列操作
+```sh
 用 LayerZero CLI 工具部署合约
 npx hardhat lz:deploy
 选2个网络,再输入USDT，回车即可,终端打印如下
@@ -192,3 +193,5 @@ info:    Sending the transaction...
 info:     Successfully sent 10 tokens from arbsep-testnet to basesep-testnet
 info:     Explorer link for source chain arbsep-testnet: https://sepolia.arbiscan.io/tx/0x21713e48351591816e7534f9cd1651c1fd2d8b38ebba3df2e874177343b73b1d
 info:     LayerZero Scan link for tracking all cross-chain transaction details: https://testnet.layerzeroscan.com/tx/0x21713e48351591816e7534f9cd1651c1fd2d8b38ebba3df2e874177343b73b1d
+
+```
