@@ -69,7 +69,7 @@ const config: HardhatUserConfig = {
             url: process.env.RPC_URL_BASE_SEPOLIA || 'https://base-sepolia.gateway.tenderly.co',
             accounts,
             oftAdapter: {
-                tokenAddress: '0x35430d5DE783051f6aa2c2AD27F4D1e13aaABa2D', // Set the token address for the OFT adapter
+                tokenAddress: '0x35430d5DE783051f6aa2c2AD27F4D1e13aaABa2D', // usdt合约地址
             },
         },
         hardhat: {
