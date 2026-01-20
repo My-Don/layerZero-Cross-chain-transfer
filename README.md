@@ -25,13 +25,14 @@
 
 ## 📖 简介
 
-**OFT Adapter** 与普通 OFT（Mint / Burn）不同，它采用 **Lock / Unlock** 机制：
+**OFT Adapter** 在本示例中采用 **Burn / Mint** 机制（而非 Lock / Unlock）：
 
-* 内部 Token（Inner Token）部署在原生链上
-* 跨链转出：**锁定（Lock）Token**
-* 跨链转回原链：**解锁（Unlock）Token**
+* 源链（Source Chain）：**销毁（Burn）Token**
+* 目标链（Destination Chain）：**铸造（Mint）Token**
 
-OFT Adapter 本质上是一个 **Token Lockbox 合约**，用于在不修改原 Token 逻辑的情况下实现跨链。
+也就是说，每次跨链转账都会在源链减少 Token 总量，在目标链生成等量 Token，从而保持全链供应一致。
+
+> ⚠️ 注意：虽然 OFT Adapter 也可以用于 Lock / Unlock 场景，但**本文档演示的是 Mint / Burn 情形**。
 
 ---
 
@@ -224,8 +225,9 @@ LayerZero Scan: https://testnet.layerzeroscan.com/tx/0x21713e48...
 
 ## 🎯 最终效果
 
-* ✅ USDT 使用 Lock / Unlock 方式跨链
-* ✅ Arbitrum Sepolia ↔ Base Sepolia 打通
+* ✅ USDT 使用 **Burn / Mint** 方式跨链
+* ✅ 源链销毁 Token，目标链铸造 Token
+* ✅ Arbitrum Sepolia ↔ Base Sepolia 双向打通
 * ✅ OFT Adapter & OApp Wiring 配置完成
 
 ---
